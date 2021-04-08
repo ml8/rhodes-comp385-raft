@@ -1,6 +1,25 @@
 # COMP385 Lab 3: Raft
 
-Before you begin, clone this repository to your local computer.
+### Important: This README and the Raft paper are your lifelines for this lab
+
+This document is __long__, but it contains a huge amount of tips, guidance, and
+advice for being succesful with this lab.
+
+Similarly, the starting code is also expansive (~3700 lines) but by reading
+through it and understanding how functions are calling one another, you will
+have a much clearer picture of how the code fits together.
+
+For what it's worth, my most recent reference solution is ~4000 lines of code,
+including logging and comments. That's a delta of ~300 lines of code. Also, the
+code complexity is rather low--it does not even contain a nested loop. The
+challenge of this lab is not in devising sophisticated algorithms, but rather,
+capturing an already-sophisticated algorithm exactly and safely, in a highly
+concurrent and nondeterministic environment.
+
+## Getting started
+
+Before you begin, clone this repository to your local computer. Welcome to the
+next three weeks of your life.
 
 ```
 $ git clone https://github.com/[your github repo]
